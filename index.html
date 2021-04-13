@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>HR-system</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>HR system</h1>
+        </nav>
+    </header>
+    <main>
+        <div class="leftContainer">
+            <form action="" id="form">
+                <h2>Add Employee</h2>
+                <label for="empName">Name</label>
+                <input type="text" id="empName">
+                <label for="empEmail">Email</label>
+                <input type="email" id="empEmail">
+                <label for="department">Department</label>
+                <select name="" id="department">
+                    <option value="Call-Center">Call-Center</option>
+                    <option value="Information-Technology">Information-Technology</option>
+                    <option value="Human-Resources">Human-Resources</option>
+                </select>
+                <input type="submit" value="submit" id="submit">
+            </form>
+        </div>
+        <div class="rightContainer">
+            <table id="table">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                </tr>
+            </table>
+            <h5> Total = <span id="total"></span></h5>
+            <button id="clearData">Clear The Table</button>
+
+        </div>
+    </main>
+    <footer>
+        <h3>&copy; ASAC 201d19 Team</h3>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

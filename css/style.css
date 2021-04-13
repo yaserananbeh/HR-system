@@ -1,0 +1,114 @@
+/* *{
+    font-family: 'Indie Flower', cursive;
+} */
+/* #00000096
+#fff */
+header nav{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    background-color:#00000096 ;
+    color: #fff;
+    padding: 15px;
+    font-family: 'Indie Flower', cursive;
+}
+body{
+    background-image: url(../img/bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    width:90%;
+    margin: auto;
+}
+.leftContainer,.rightContainer{
+    float: left;
+    background-color: #00000096;
+    color: #fff;
+    margin: 5%;
+
+}
+.leftContainer{
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+.rightContainer{
+    width: 55%;
+    margin: 100px auto;
+    padding: 50px 25px;
+}
+h2{
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+label{
+    width: 80%;
+    display: block;
+    margin: 15px auto;
+    text-align: left;
+
+}
+select,option,input{
+    width: 80%;
+    display: block;
+    margin: 15px auto;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+table{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+
+}
+table,th,td{
+    border:1px solid white;
+    padding: 15px;
+    font-weight: 600;
+    font-size: large;
+
+}
+
+h5{
+    width: 15%;
+    margin: 20px 40px;
+    padding: 20px;
+    font-weight: 700;
+    font-size: larger;
+    border:1px solid white;
+}
+input[type='submit']{
+    /* background-color: red; */
+    margin: 40px auto;
+}
+#clearData{
+    width: 15%;
+    margin: 20px 40px;
+    padding: 10px;
+    border:1px solid white;
+    font-weight: 700;
+    background-color: #00000096;
+    color: white;
+    cursor: pointer;
+}
+#clearData:hover{
+    background-color: black;
+}
+/* footer{
+    position: relative;
+    bottom: 0;
+    
+} */
+footer h3 {
+    clear: both;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    margin: 20px auto;
+}
